@@ -56,15 +56,39 @@
 		BAEFBCD625BA8B7400E1C5AA /* Github1 */ = {
 			isa = PBXGroup;
 			children = (
-				BAEFBCD725BA8B7400E1C5AA /* AppDelegate.swift */,
-				BAEFBCD925BA8B7400E1C5AA /* SceneDelegate.swift */,
-				BAEFBCDB25BA8B7400E1C5AA /* ViewController.swift */,
-				BAEFBCDD25BA8B7400E1C5AA /* Main.storyboard */,
-				BAEFBCE025BA8B7400E1C5AA /* Assets.xcassets */,
-				BAEFBCE225BA8B7400E1C5AA /* LaunchScreen.storyboard */,
+				BAEFBCF025BA8BB200E1C5AA /* Model */,
+				BAEFBCEF25BA8BAB00E1C5AA /* View */,
+				BAEFBCED25BA8B9D00E1C5AA /* Controller */,
 				BAEFBCE525BA8B7400E1C5AA /* Info.plist */,
 			);
 			path = Github1;
+			sourceTree = "<group>";
+		};
+		BAEFBCED25BA8B9D00E1C5AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFBCDB25BA8B7400E1C5AA /* ViewController.swift */,
+				BAEFBCD725BA8B7400E1C5AA /* AppDelegate.swift */,
+				BAEFBCD925BA8B7400E1C5AA /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAEFBCEF25BA8BAB00E1C5AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFBCE025BA8B7400E1C5AA /* Assets.xcassets */,
+				BAEFBCE225BA8B7400E1C5AA /* LaunchScreen.storyboard */,
+				BAEFBCDD25BA8B7400E1C5AA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAEFBCF025BA8BB200E1C5AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tora.Github1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tora.Github1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
